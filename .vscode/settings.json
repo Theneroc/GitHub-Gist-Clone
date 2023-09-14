@@ -1,0 +1,24 @@
+{
+    "elixirLS.suggestSpecs": false,
+    "elixirLS.dialyzerEnabled": true,
+    "elixirLS.signatureAfterComplete": false,
+    "elixirLS.fetchDeps": false,
+    
+    "files.associations": {
+      "*.heex": "phoenix-heex"
+    },
+    
+    "[elixir]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "JakeBecker.elixir-ls"
+    },
+    
+    "[phoenix-heex]": {
+      "editor.formatOnSave": false,
+      "editor.defaultFormatter": "JakeBecker.elixir-ls"
+    },
+
+    "emmet.includeLanguages": {
+        "phoenix-heex": "html"
+    },
+}
